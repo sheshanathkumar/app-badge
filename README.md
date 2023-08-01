@@ -1,2 +1,2 @@
-# app-badge
-Application badge for Readme file
+# BADGE
+All application badge available here
