@@ -1,0 +1,74 @@
+.badge {
+    height: min-content;
+    width: max-content;
+    border-radius: 5px;
+  }
+  
+  .spring {
+    padding: 2px 5px;
+    background-color: green;
+    color: white;
+    margin-bottom: 2px;
+  }
+  
+  .angular {
+    padding: 2px 5px;
+    background-color: rgb(119, 15, 15);
+    color: white;
+    margin-bottom: 2px;
+  }
+  
+  .gradle{
+    padding: 2px 5px;
+    background-color: rgb(82, 78, 78);
+    color: white;
+    margin-bottom: 2px;
+  }
+  
+  .maven{
+    padding: 2px 5px;
+    background-color: rgb(97, 187, 14);
+    color: white;
+    margin-bottom: 2px;
+  }
+
+  .badgehome{
+    height: 1000px;
+    background: antiquewhite; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .banner{
+    height: 10%;
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+  }
+  
+  .banner p{
+    font-size: larger;
+    color: aliceblue;
+  }
+
+  .intro{
+    height: 40%;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    display: flex;
+  }
+
+  .intro p{
+    font-size: medium;
+    color: white;
+  }
+
+  .all-badge{
+    background-color: rgb(204, 78, 78);
+    display: flex;
+  }
+
+  .all-badge p {
+    font-size: medium;
+    color: white;
+  }
