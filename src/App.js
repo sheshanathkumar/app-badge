@@ -1,5 +1,5 @@
 import { BrowserRouter, Route,  Routes } from 'react-router-dom';
-import { Gradle, Maven, Spring, SpringBoot } from './badges';
+import { Angular, Gradle, Maven, Spring, SpringBoot } from './badges';
 import {Home} from './home'
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <Route path = "/springboot" element = {<SpringBoot />} />
         <Route path="/maven" element = {<Maven /> } />
         <Route path = "/gradle" element= {<Gradle />}  />
+        <Route path='/angular' element={<Angular />} />
 
       </Routes>
 

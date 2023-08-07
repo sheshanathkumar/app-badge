@@ -1,74 +1,48 @@
 .badge {
-    height: min-content;
-    width: max-content;
-    border-radius: 5px;
-  }
-  
-  .spring {
-    padding: 2px 5px;
-    background-color: green;
-    color: white;
-    margin-bottom: 2px;
-  }
-  
-  .angular {
-    padding: 2px 5px;
-    background-color: rgb(119, 15, 15);
-    color: white;
-    margin-bottom: 2px;
-  }
-  
-  .gradle{
-    padding: 2px 5px;
-    background-color: rgb(82, 78, 78);
-    color: white;
-    margin-bottom: 2px;
-  }
-  
-  .maven{
-    padding: 2px 5px;
-    background-color: rgb(97, 187, 14);
-    color: white;
-    margin-bottom: 2px;
-  }
+  height: min-content;
+  width: max-content;
+  border-radius: 5px;
+}
 
-  .badgehome{
-    height: 1000px;
-    background: antiquewhite; 
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .banner{
-    height: 10%;
-    background-color: black;
-    border: 1px solid black;
-    display: flex;
-  }
-  
-  .banner p{
-    font-size: larger;
-    color: aliceblue;
-  }
+.spring {
+  padding: 2px 5px;
+  background-color: green;
+  color: white;
+  margin-bottom: 2px;
+}
 
-  .intro{
-    height: 40%;
-    background-color: blueviolet;
-    border: 1px solid blueviolet;
-    display: flex;
-  }
+.angular {
+  padding: 2px 5px;
+  background-color: #770f0f;
+  color: white;
+  margin-bottom: 2px;
+}
 
-  .intro p{
-    font-size: medium;
-    color: white;
-  }
+.gradle {
+  padding: 2px 5px;
+  background-color: #524e4e;
+  color: white;
+  margin-bottom: 2px;
+}
 
-  .all-badge{
-    background-color: rgb(204, 78, 78);
-    display: flex;
-  }
+.maven {
+  padding: 2px 5px;
+  background-color: #61bb0e;
+  color: white;
+  margin-bottom: 2px;
+}
 
-  .all-badge p {
-    font-size: medium;
-    color: white;
-  }
+.badge-banner {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../src/allbadges.png");
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-size: 70 px;
+  background: -webkit-linear-gradient(#d31d1d, #d3d012);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
