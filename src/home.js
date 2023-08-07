@@ -7,8 +7,8 @@ export function Home() {
 
   const navcolor = "#4747b8";
   const gridStyle = {
-    height: "50px",
     borderRadius: "10px",
+    width:"250px"
   };
 
 
@@ -27,7 +27,9 @@ export function Home() {
           <div className="row">
             {
               app.map(function (x) {
-                return (<div className="col-3" style={gridStyle} key={x.id}> <Link to={x.link}> <h2> {x.name}  </h2></Link>   </div>)
+                return (<div className="col-3" style={gridStyle} key={x.id}> <Link to={x.link} style={{ textDecoration: 'none' }} >
+                   <h2> {x.name}  </h2>
+                   </Link>   </div>)
               })
             }
           </div>

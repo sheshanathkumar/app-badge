@@ -1,48 +1,355 @@
-.badge {
-  height: min-content;
-  width: max-content;
-  border-radius: 5px;
-}
-
-.spring {
-  padding: 2px 5px;
-  background-color: green;
-  color: white;
-  margin-bottom: 2px;
-}
-
-.angular {
-  padding: 2px 5px;
-  background-color: #770f0f;
-  color: white;
-  margin-bottom: 2px;
-}
-
-.gradle {
-  padding: 2px 5px;
-  background-color: #524e4e;
-  color: white;
-  margin-bottom: 2px;
-}
-
-.maven {
-  padding: 2px 5px;
-  background-color: #61bb0e;
-  color: white;
-  margin-bottom: 2px;
-}
-
 .badge-banner {
   height: 100vh;
   width: 100%;
   background-image: url("../src/allbadges.png");
-  backdrop-filter: blur(10px);
 }
 
 h1 {
   font-size: 70 px;
-  background: -webkit-linear-gradient(#d31d1d, #d3d012);
+  background: -webkit-linear-gradient(#d60404, #f54e00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
 
+.badge {
+  height: max-content;
+  width: min-content;
+  display: flex;
+  padding: 2px;
+}
+
+
+.applogo {
+  width: min-content;
+}
+
+.appname {
+  height: max-content;
+  width: max-content;
+  margin-left: 2px;
+  margin-top: 1px;
+}
+
+.c {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.clojure {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.cplus {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.csharp {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.css {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.dart {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.go {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.gradle {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.haskel {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.html {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.javascript {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.json {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.kotlin {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.latex {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.leaflet {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.lua {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.maven {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.node {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.npm {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.numpy {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.openjdk {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.pandas {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.pearl {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.php {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.plsql {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.python {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.r {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.ruby {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.scratch {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.spring {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.springboot {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.sql {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.swift {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.tensorflow {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.xml {
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: green;
+  margin-bottom: 2px;
+}
+
+.angular{
+  border-radius: 2px;
+  display: flex;
+  padding: 1px 3px;
+  color: white;
+  background-color: rgb(177, 12, 12);
+  margin-bottom: 2px;
 }
