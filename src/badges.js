@@ -1,6 +1,6 @@
 import React from 'react'
 import './badge.css'
-import { SiAngular, SiApachemaven, SiGradle, SiSpring, SiSpringboot } from 'react-icons/si'
+import { SiAngular, SiApachemaven, SiC, SiClojure, SiCplusplus, SiCsharp, SiCss3, SiDart, SiGo, SiGradle, SiHaskell, SiHtml5, SiJavascript, SiJson, SiKotlin, SiLatex, SiLeaflet, SiLua, SiMysql, SiNodedotjs, SiNpm, SiNumpy, SiOpenjdk, SiPandas, SiPerl, SiPhp, SiPostgresql, SiPython, SiR, SiRuby, SiScratch, SiSpring, SiSpringboot, SiSwift, SiTensorflow, SiXaml } from 'react-icons/si'
 
 export function Angular() {
     return (
@@ -25,7 +25,7 @@ export function C() {
             <div className='badge'>
                 <div className= "c" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiC />
                     </div>
                     <div className='appname'>
                         C
@@ -43,7 +43,7 @@ export function Clojure() {
             <div className='badge'>
                 <div className= "clojure" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiClojure />
                     </div>
                     <div className='appname'>
                         CLOJURE
@@ -61,7 +61,7 @@ export function Cplus() {
             <div className='badge'>
                 <div className= "cplus" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiCplusplus />
                     </div>
                     <div className='appname'>
                         CPLUS
@@ -79,10 +79,10 @@ export function Csharp() {
             <div className='badge'>
                 <div className= "csharp" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiCsharp />
                     </div>
                     <div className='appname'>
-                        CSHARP
+                        C#
                     </div>
                 </div>
             </div>
@@ -97,10 +97,10 @@ export function Css() {
             <div className='badge'>
                 <div className= "css" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiCss3 />
                     </div>
                     <div className='appname'>
-                        CSS
+                        CSS 3
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ export function Dart() {
             <div className='badge'>
                 <div className= "dart" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiDart />
                     </div>
                     <div className='appname'>
                         DART
@@ -133,7 +133,7 @@ export function Go() {
             <div className='badge'>
                 <div className= "go" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiGo />
                     </div>
                     <div className='appname'>
                         GO
@@ -169,7 +169,7 @@ export function Haskel() {
             <div className='badge'>
                 <div className= "haskel" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiHaskell />
                     </div>
                     <div className='appname'>
                         HASKEL
@@ -187,10 +187,10 @@ export function Html() {
             <div className='badge'>
                 <div className= "html" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiHtml5 />
                     </div>
                     <div className='appname'>
-                        HTML
+                        HTML5
                     </div>
                 </div>
             </div>
@@ -205,7 +205,7 @@ export function JavaScript() {
             <div className='badge'>
                 <div className= "javascript" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiJavascript />
                     </div>
                     <div className='appname'>
                         JAVASCRIPT
@@ -223,7 +223,7 @@ export function Json() {
             <div className='badge'>
                 <div className= "json" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiJson />
                     </div>
                     <div className='appname'>
                         JSON
@@ -241,7 +241,7 @@ export function Kotlin() {
             <div className='badge'>
                 <div className= "kotlin" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiKotlin />
                     </div>
                     <div className='appname'>
                         KOTLIN
@@ -259,7 +259,7 @@ export function Latex() {
             <div className='badge'>
                 <div className= "latex" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiLatex />
                     </div>
                     <div className='appname'>
                         LATEX
@@ -277,7 +277,7 @@ export function Leaflet() {
             <div className='badge'>
                 <div className= "leaflet" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiLeaflet />
                     </div>
                     <div className='appname'>
                         LEAFLET
@@ -295,7 +295,7 @@ export function Lua() {
             <div className='badge'>
                 <div className= "lua" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiLua />
                     </div>
                     <div className='appname'>
                         LUA
@@ -331,7 +331,7 @@ export function Node() {
             <div className='badge'>
                 <div className= "node" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiNodedotjs />
                     </div>
                     <div className='appname'>
                         NODE
@@ -349,7 +349,7 @@ export function Npm() {
             <div className='badge'>
                 <div className= "npm" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiNpm />
                     </div>
                     <div className='appname'>
                         NPM
@@ -367,7 +367,7 @@ export function Numpy() {
             <div className='badge'>
                 <div className= "numpy" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiNumpy />
                     </div>
                     <div className='appname'>
                         NUMPY
@@ -385,7 +385,7 @@ export function OpenJdk() {
             <div className='badge'>
                 <div className= "openjdk" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiOpenjdk />
                     </div>
                     <div className='appname'>
                         OPENJDK
@@ -403,7 +403,7 @@ export function Pandas() {
             <div className='badge'>
                 <div className= "pandas" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiPandas />
                     </div>
                     <div className='appname'>
                         PANDAS
@@ -421,10 +421,10 @@ export function Pearl() {
             <div className='badge'>
                 <div className= "pearl" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiPerl />
                     </div>
                     <div className='appname'>
-                        PEARL
+                        PERL
                     </div>
                 </div>
             </div>
@@ -439,7 +439,7 @@ export function Php() {
             <div className='badge'>
                 <div className= "php" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiPhp />
                     </div>
                     <div className='appname'>
                         PHP
@@ -457,7 +457,7 @@ export function Plsql() {
             <div className='badge'>
                 <div className= "plsql" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiPostgresql />
                     </div>
                     <div className='appname'>
                         PLSQL
@@ -475,7 +475,7 @@ export function Python() {
             <div className='badge'>
                 <div className= "python" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiPython />
                     </div>
                     <div className='appname'>
                         PYTHON
@@ -493,7 +493,7 @@ export function R() {
             <div className='badge'>
                 <div className= "r" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiR />
                     </div>
                     <div className='appname'>
                         R
@@ -511,7 +511,7 @@ export function Ruby() {
             <div className='badge'>
                 <div className= "ruby" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiRuby />
                     </div>
                     <div className='appname'>
                         RUBY
@@ -529,7 +529,7 @@ export function Scratch() {
             <div className='badge'>
                 <div className= "scratch" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiScratch />
                     </div>
                     <div className='appname'>
                         SCRATCH
@@ -583,10 +583,10 @@ export function Sql() {
             <div className='badge'>
                 <div className= "sql" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiMysql />
                     </div>
                     <div className='appname'>
-                        SQL
+                        MySql
                     </div>
                 </div>
             </div>
@@ -601,7 +601,7 @@ export function Swift() {
             <div className='badge'>
                 <div className= "swift" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiSwift />
                     </div>
                     <div className='appname'>
                         SWIFT
@@ -619,7 +619,7 @@ export function TensorFlow() {
             <div className='badge'>
                 <div className= "tensorflow" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiTensorflow />
                     </div>
                     <div className='appname'>
                         TENSORFLOW
@@ -637,7 +637,7 @@ export function Xml() {
             <div className='badge'>
                 <div className= "xml" >
                     <div className='applogo'>
-                        <SiSpring />
+                        <SiXaml />
                     </div>
                     <div className='appname'>
                         XML
